@@ -1,0 +1,8 @@
+//
+// Created by Frem on 01.07.2023.
+//
+
+#ifndef TEMPLATE_CMAKE_HEADER_H
+#define TEMPLATE_CMAKE_HEADER_H
+
+#endif //TEMPLATE_CMAKE_HEADER_H
