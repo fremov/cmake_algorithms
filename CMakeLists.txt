@@ -6,11 +6,13 @@ set(CMAKE_CXX_STANDARD 20)
 # Пути к файлам исходного кода
 set(SOURCES
         src/main.cpp
-        )
+         
+)
 # Пути к заголовочным файлам
 set(HEADERS
         include/header.h
-        )
+        
+)
 
 
 add_executable(template_cmake ${SOURCES} ${HEADERS})
