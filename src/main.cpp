@@ -1,11 +1,11 @@
 #include <iostream>
-#include <string>
-#include "header.h"
-#include "131.h"
+#include "754.h"
+
 
 
 int main() {
     
-    f_131();
+    f_754();
+
     return 0;
 }
