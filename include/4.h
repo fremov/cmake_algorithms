@@ -1,5 +1,4 @@
-
-#include <iostream>
+#pragma once 
 
 void f_4()
 {
@@ -11,5 +10,4 @@ void f_4()
 	res = second - num;
 
 	std::cout << num << second << res;
-
 }

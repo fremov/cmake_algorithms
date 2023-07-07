@@ -8,5 +8,5 @@ void f_33()
 	std::cin >> a;
 	std::cin >> b;
 
-	std::cout << a - 1 << " " << b - 1;
+	std::cout << b - 1 << " " << a - 1;
 }

@@ -1,11 +1,9 @@
 #include <iostream>
-#include "754.h"
-
-
+#include <14.h>
+#include <264.h>
 
 int main() {
-    
-    f_754();
 
-    return 0;
+	f_264();
+	return 0;
 }
