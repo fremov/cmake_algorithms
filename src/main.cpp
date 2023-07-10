@@ -1,7 +1,7 @@
 #include <iostream>
-#include "52.h"
+#include "907.h"
 
 int main() {
-	f_52();
+	f_907();
 	return 0;
 }
