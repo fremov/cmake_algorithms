@@ -11,7 +11,4 @@ void f_92()
 
 	std::cout << petya << " " << katya << " " << vanya;
 
-	
-
-
 }
