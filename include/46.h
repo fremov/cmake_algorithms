@@ -1,13 +1,11 @@
 #pragma once
 #include <iostream>
-#include <cmath>
+#include <iomanip>
 void f_46()
 {
-	const double E = 2.7182818284590452353602875;
-	int n;
-	std::cin >> n;
-	long double res;
-	res = std::round(E * pow(10, n)) / pow(10, n);
-	std::cout << res;
+	long double E = 2.7182818284590452353602875;
+	//int n;
+	//std::cin >> n;
+	std::cout << std::fixed << std::setprecision(25) << E;
 
 }

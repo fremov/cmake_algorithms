@@ -1,11 +1,10 @@
 #include <iostream>
-#include <14.h>
-#include <264.h>
-#include <7.h>
-#include <757.h>
+#include <46.h>
+#include <66.h>
+#include <272.h>
 
 int main() {
 
-	f_757();
+	f_272();
 	return 0;
 }

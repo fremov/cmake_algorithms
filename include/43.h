@@ -1,27 +1,28 @@
 #pragma once
-#include <vector>
 
+#include <string>
 void f_43()
 {
-    int number;
+    std::string number;
     std::cin >> number;
     int count = 0;
     int maxCount = 0;
 
-    while (number != 0) {
-        if (number & 1) {
-            // Если текущий бит равен 1, сбрасываем счетчик
-            if (count > maxCount) {
+    for (int i = 0; i < number.size(); i++)
+    {
+        if (number[i] == '0')
+        {
+            count++;
+            if (count > maxCount)
+            {
                 maxCount = count;
             }
-            count = 0;
         }
         else {
-            // Если текущий бит равен 0, увеличиваем счетчик
-            count++;
+            count = 0;
         }
-        number >>= 1;  // Сдвигаем число на один бит вправо
     }
-
     std::cout << maxCount;
+
+   
 }
